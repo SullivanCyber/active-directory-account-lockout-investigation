@@ -95,7 +95,7 @@ The following screenshots document the Active Directory account lockout investig
 ![Account Lockout Policy](screenshots/01-account-lockout-policy.jpg)
 
 ### 2. Account Lockout Detection
-![Account Lockout Message](screenshots/02-account-lockout-message.jpg)
+![Account Lockout Message](screenshots/02-lockout-message.jpg)
 
 ### 3. Windows Security Event ID 4740
 ![Event ID 4740](screenshots/03-event-4740-lockout.jpg)
