@@ -90,8 +90,33 @@ See [SOC Investigation Report](SOC-Investigation-Report.md) for the detailed tim
 
 ## Skills demonstrated
 
+
+
 **Active Directory administration · Group Policy · Windows Event Viewer · Security event triage · Kerberos authentication analysis · PowerShell · Incident documentation · Least privilege**
 
 ---
 
 *This project was performed in a controlled lab for cybersecurity education and portfolio development.*
+
+
+## Lab Screenshots
+
+The following screenshots document the Active Directory account lockout investigation conducted in my CyberLab environment.
+
+### 1. Account Lockout Policy Configuration
+![Account Lockout Policy](screenshots/01-account-lockout-policy.png)
+
+### 2. Account Lockout Detection
+![Account Lockout Message](screenshots/02-account-lockout-message.png)
+
+### 3. Windows Security Event ID 4740
+![Event ID 4740](screenshots/03-event-4740-lockout.png)
+
+### 4. Account Recovery Verification
+![Account Recovery](screenshots/04-account-recovery.png)
+
+### 5. Kerberos Authentication — Event ID 4768
+![Kerberos Authentication](screenshots/05-event-4768-kerberos.png)
+
+### 6. Last Logon Verification
+![Last Logon](screenshots/06-last-logon.png)
