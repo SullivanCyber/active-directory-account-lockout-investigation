@@ -62,18 +62,6 @@ Get-ADUser 'LockoutTest_' -Properties LastLogonDate |
     Select-Object Name,LastLogonDate
 ```
 
-## Screenshots and evidence
-
-Add screenshots captured during the lab to the `screenshots/` directory. Suggested filenames:
-
-- `01-account-lockout-policy.png` — configured Group Policy settings
-- `02-account-locked-out.png` — PC01 lockout message
-- `03-event-4740.png` — DC01 lockout event and caller computer
-- `04-account-recovered.png` — PowerShell showing `LockedOut: False`
-- `05-event-4768.png` — Kerberos request, result code, and client address
-- `06-last-logon-date.png` — AD last-logon query
-
-Before publishing, review screenshots for passwords, tokens, personal information, and unrelated account details. Do not upload secrets or VM disk images.
 
 ## Lessons learned
 
