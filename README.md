@@ -104,19 +104,19 @@ See [SOC Investigation Report](SOC-Investigation-Report.md) for the detailed tim
 The following screenshots document the Active Directory account lockout investigation conducted in my CyberLab environment.
 
 ### 1. Account Lockout Policy Configuration
-![Account Lockout Policy](screenshots/01-account-lockout-policy.png)
+![Account Lockout Policy](screenshots/01-account-lockout-policy.jpg)
 
 ### 2. Account Lockout Detection
-![Account Lockout Message](screenshots/02-account-lockout-message.png)
+![Account Lockout Message](screenshots/02-account-lockout-message.jpg)
 
 ### 3. Windows Security Event ID 4740
-![Event ID 4740](screenshots/03-event-4740-lockout.png)
+![Event ID 4740](screenshots/03-event-4740-lockout.jpg)
 
 ### 4. Account Recovery Verification
-![Account Recovery](screenshots/04-account-recovery.png)
+![Account Recovery](screenshots/04-account-recovery.jpg)
 
 ### 5. Kerberos Authentication — Event ID 4768
-![Kerberos Authentication](screenshots/05-event-4768-kerberos.png)
+![Kerberos Authentication](screenshots/05-event-4768-kerberos.jpg)
 
 ### 6. Last Logon Verification
-![Last Logon](screenshots/06-last-logon.png)
+![Last Logon](screenshots/06-last-logon.jpg)
